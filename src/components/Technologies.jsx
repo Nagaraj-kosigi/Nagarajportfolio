@@ -20,9 +20,9 @@ const iconVariants = (duration)=>({
             repeat:Infinity,
             ease:"linear",
             repeatType:"reverse",
-        }
-    }
-})
+        },
+    },
+});
 
 const Technologies = () => {
   return (
@@ -41,72 +41,72 @@ const Technologies = () => {
         variants={iconVariants(2.5)}
         initial="initial"
         animate="animate"
-        className="rounded-2xl border-4 border-neutral-800 pb-4">
+        className="rounded-2xl border-neutral-800 pb-4">
             <FaHtml5 className="text-7xl rounded-2xl text-orange-600 bg-white"/>
         </motion.div>
         <motion.div 
          variants={iconVariants(3)}
          initial="initial"
          animate="animate"
-        className="rounded-2xl border-4 border-neutral-800 pb-4">
-            <IoLogoCss3 className="text-7xl text-blue-500 bg-white  "/>
+        className="rounded-2xl border-neutral-800 pb-4">
+            <IoLogoCss3 className="text-7xl rounded-2xl text-blue-500 bg-white  "/>
         </motion.div>
         <motion.div 
          variants={iconVariants(2.5)}
          initial="initial"
          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 pb-4">
-            <SiJavascript className="text-7xl text-yellow-300"/>
+          className="rounded-2xl border-neutral-800 pb-4">
+            <SiJavascript className="text-7xl rounded-2xl text-yellow-300"/>
         </motion.div>
         <motion.div 
          variants={iconVariants(3)}
          initial="initial"
          animate="animate" 
-         className="rounded-2xl border-4 border-neutral-800 pb-4">
-            <RiReactjsLine className="text-7xl text-cyan-400"/>
+         className="rounded-2xl border-neutral-800 pb-4">
+            <RiReactjsLine className="text-7xl bg-black rounded-2xl text-cyan-400"/>
         </motion.div>
         <motion.div 
          variants={iconVariants(2.5)}
          initial="initial"
          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 pb-4">
-            <SiMysql className="text-7xl text-yellow-300"/>
+          className="rounded-2xl border-neutral-800 pb-4">
+            <SiMysql className="text-7xl bg-slate-200 rounded-2xl text-blue-400"/>
         </motion.div>
         <motion.div 
          variants={iconVariants(2)}
          initial="initial"
          animate="animate" 
-         className="rounded-2xl border-4 border-neutral-800 pb-4">
-            <BiLogoMongodb className="text-7xl text-green-500"/>
+         className="rounded-2xl border-neutral-800 pb-4">
+            <BiLogoMongodb className="text-7xl bg-black rounded-2xl text-green-500"/>
         </motion.div>
         <motion.div 
          variants={iconVariants(3)}
          initial="initial"
          animate="animate" 
-         className="rounded-2xl border-4 border-neutral-800 pb-4">
-            <TbBrandNodejs className="text-7xl text-green-500"/>
+         className="rounded-2xl border-neutral-800 pb-4">
+            <TbBrandNodejs className="text-7xl bg-black rounded-2xl text-green-500"/>
         </motion.div>
         <motion.div 
          variants={iconVariants(2)}
          initial="initial"
          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 pb-4">
+          className="rounded-2xl border-neutral-800 pb-4">
             <SiTailwindcss 
-            className="text-7xl text-cyan-400"/>
+            className="text-7xl rounded-2xl text-cyan-400 bg-white"/>
         </motion.div>
         <motion.div 
          variants={iconVariants(3)}
          initial="initial"
          animate="animate" 
-         className="rounded-2xl border-4 border-neutral-800 pb-4">
-            <FaBootstrap className="text-7xl bg-white text-blue-600 "/>
+         className="rounded-2xl border-neutral-800 pb-4">
+            <FaBootstrap className="text-7xl rounded-2xl bg-white text-blue-600 "/>
         </motion.div>
         <motion.div 
          variants={iconVariants(2)}
          initial="initial"
          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 pb-4">
-            <img src={PythonLogo} alt="Python Logo" className="object-scale-down w-14 rounded-2xl"/>
+          className="rounded-2xl  border-neutral-800 pb-4">
+            <img src={PythonLogo} alt="Python Logo" className="object-scale-down h-20 rounded-2xl"/>
         </motion.div>
       </motion.div>
     </div>
