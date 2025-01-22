@@ -26,6 +26,7 @@ const Contacts = () => {
         <a href={`mailto:${CONTACT.email}`} className="border-b">
           {CONTACT.email}
         </a>
+        
       </motion.div>
     </div>
   );

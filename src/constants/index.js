@@ -8,22 +8,7 @@ export const HERO_CONTENT = `I am a Passionate Full Stack Developer with experti
 
 export const ABOUT_TEXT = `As a Full Stack Developer, I specialize in creating dynamic web applications using front-end technologies such as HTML, CSS, JavaScript, React, and Bootstrap. With strong back-end experience in Node.js, PHP, Java, and Python, and expertise in database management with MongoDB and MySQL, I aim to deliver innovative, high-performance solutions. I am committed to optimizing functionality and ensuring seamless user experiences across platforms while maintaining clean and efficient code.`;
 
-export const EXPERIENCES = [
-  {
-    year: "Jun 2023 - Sep 2023",
-    role: "Data Scientist",
-    company: "Personifwy",
-    description: `As a Data Science Intern at Personifwy, I gained hands-on experience in data cleaning, preprocessing, and exploratory data analysis using Python libraries such as Pandas and NumPy. I developed and deployed machine learning models, including Random Forest and Logistic Regression, to solve business challenges, achieving 97% Accuracy. Additionally, I created data visualizations and reports using tools like Matplotlib and Tableau, enabling data-driven decision-making and actionable insights.`,
-    technologies: ["Python", "Data Science", "Deep Learning", "Machine Learning"],
-  },
-  {
-    year: "Feb 2024 - Mar 2024",
-    role: "Full Stack Developer",
-    company: "Destination Technologies",
-    description: `During my Java Full Stack Developer Internship at Destination Technologies, I designed and implemented web applications by leveraging Java, Spring Boot, and MySQL for back-end development. I crafted responsive front-end interfaces using HTML, CSS, JavaScript, and React, collaborated with teams to optimize functionality, and delivered scalable, user-centric solutions effectively.`,
-    technologies: ["HTML", "CSS", "react.js", "mySQL","JavaScript","Java"],
-  }
-];
+
 
 export const PROJECTS = [
   {
@@ -51,7 +36,7 @@ export const PROJECTS = [
     image: project4,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Tailwind CSS"],
+    technologies: ["HTML", "CSS", "React.js", "Tailwind CSS"],
   },
   {
     title: "Secure password generator",

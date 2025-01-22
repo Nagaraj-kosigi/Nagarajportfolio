@@ -55,7 +55,7 @@ const Hero = () => {
               transition={{ duration: 1, delay: 1.2 }}
               className="rounded-full"
               src={profilePic}
-              alt="Rudra Gowda H"
+              alt="Nagaraj K"
             />
           </div>
         </div>
